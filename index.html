@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <!--Sneck 1-->
+            <section class="snecks">
+                <h1>Question 1</h1>
+                <h3 class="description"> Inserire la variabile di lunghezza massima 6 simboli</h3>
+                <div class="value">
+                    <input type="text" id="sneck1__input">
+                    <h4 class="hidden" id="sneck1__error">Il valore inserito non è valido</h4>
+                </div>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck1__result"></p>
+                </div>
+                <button class="sneck__btn" id="btn__sneck1">Get Result</button>
+            </section>
+            <!--/Sneck 1-->
+
+            <!--Sneck 2-->
+            <section class="snecks">
+                <h1>Question 2</h1>
+                <h3 class="description"> Inserire un numero con una lunghezza massima di 3 simboli</h3>
+                <div class="value">
+                    <input type="text" id="sneck2__input">
+                    <h4 class="hidden" id="sneck2__error">Il valore inserito non è valido</h4>
+                </div>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck2__result"></p>
+                </div>
+                <button class="sneck__btn" id="btn__sneck2">Get Result</button>
+            </section>
+            <!--/Sneck 2-->
+
+            <!--Sneck 3-->
+            <section class="snecks">
+                <h1>Question 3</h1>
+                <h3 class="description"> Ritorno: "un array filtrato con le parole di lunghezza maggiore a 5".</h3>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck3A__result"></p>
+                </div>
+                <h3 class="description"> Ritorno: "un array con la prima lettera di ogni parola in maiuscolo".</h3>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck3B__result"></p>
+                </div>                
+            </section>
+            <!--/Sneck 3-->
+
+            <!--Sneck 4-->
+            <section class="snecks">
+                <h1>Question 4</h1>
+                <h3 class="description"> Ritorno: "un array con solo i nomi dei soggetti".</h3>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck4A__result"></p>
+                </div>
+                <h3 class="description"> Ritorno: "età media dei soggetti".</h3>
+                <div class="sneck__result">
+                    <h3>Risultato:</h3>
+                    <p id="sneck4B__result"></p>
+                </div>                
+            </section>
+            <!--/Sneck 4-->
+            
+            <!--Sneck 5-->
+            <section class="snecks">
+                <h1>Question 5</h1>
+                <h3 class="description">Nel seguente codice, perchè anche il name del primo oggetto nell’array users cambia nome in 'Mario'?".</h3>
+                <div class="sneck__result">
+                    <h3>Risposta:</h3>
+                    <p class="snecks__risposta">Perchè faccendo <span class="red">user1 = users[0]</span> - mettiamo in relazione gli oggetti, quindi variando uno anche l'altro assumerà lo stesso valore</p>
+                </div>                
+            </section>
+            <!--/Sneck 5-->
+
+            <!--Sneck 6-->
+            <section class="snecks">
+                <h1>Question 6</h1>
+                <h3 class="description">Cos’è il this in JavaScript?".</h3>
+                <div class="sneck__result">
+                    <h3>Risposta:</h3>
+                    <div class="snecks__risposta">
+                        <p>Utilizzando <span class="this">"This"</span> manipoliamo l'oggetto corrente. <span class="this">"This"</span> è una parola chiave che viene riferita ad un oggetto specifico. Il valore di <span class="this">"This"</span> non può essere cambiato in quanto non è una variabile. Possiamo utilizzare <span class="this">"This"</span> dentro un metodo che si trova al'interno di un oggetto. In questo caso <span class="this">"This"</span> farà riferimento al nome dell'oggetto. Nel esempo sotto <span class="this">"This"</span> si riferisce all'oggetto "car".</p>
+                        <div class="example">
+                            <div>const car = {</div>
+                                <div class="return__to__right">brend: "Ford",</div>
+                                <div class="return__to__right">model: "Puma",</div>
+                                <div class="return__to__right">maxSpeed: 200,</div>
+                                <div class="return__to__right">gearbox: manual,</div>
+                                <div class="return__to__right">reliseDate: 2019{</div>
+                                <div class="return__to__right">fullName: function(){</div>
+                                <div class="return__to__right__extra">return this.brend + " " + this.model</div>
+                                <div class="return__to__right">}</div>
+                                <div>};</div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <!--/Sneck 6-->
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
